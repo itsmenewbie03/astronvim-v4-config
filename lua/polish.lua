@@ -25,3 +25,5 @@ vim.filetype.add {
     [".*%.blade%.php"] = "blade",
   },
 }
+
+vim.o.scrolloff = 10
