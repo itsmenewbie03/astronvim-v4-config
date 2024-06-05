@@ -27,3 +27,5 @@ vim.filetype.add {
 }
 
 vim.o.scrolloff = 10
+-- INFO: i wanna keep `gr` for go to references
+vim.api.nvim_set_keymap("n", "gr", " lR", { nowait = true })
