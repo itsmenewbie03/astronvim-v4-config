@@ -12,6 +12,7 @@ return {
   { import = "astrocommunity.pack.blade" },
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.note-taking.obsidian-nvim" },
   { import = "astrocommunity.editing-support.cloak-nvim" },
   -- import/override with your plugins folder
