@@ -65,7 +65,7 @@ return {
         -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
       },
       t = {
-        ["<C-k>"] = { "<C-\\><C-n>", desc = "Exit terminal mode" }, -- jk to exit terminal mode
+        ["<C-k>"] = { "<C-\\><C-n>", desc = "Exit terminal mode" }, -- <C-k> to exit terminal mode
       },
     },
   },
