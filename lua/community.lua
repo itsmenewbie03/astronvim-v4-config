@@ -13,6 +13,5 @@ return {
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.go" },
-  { import = "astrocommunity.editing-support.cloak-nvim" },
   -- import/override with your plugins folder
 }
