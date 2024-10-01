@@ -10,11 +10,12 @@ return {
     ---@param opts AstroLSPOpts
     opts = function(_, opts)
       opts.config.blade = {
-        cmd = { "laravel-dev-generators", "lsp" },
+        cmd = { "blade-ls", "lsp" },
         filetypes = { "blade" },
+        root_dir = function(_) return vim.loop.cwd() end,
       }
 
-      if vim.fn.executable "laravel-dev-generators" == 1 then
+      if vim.fn.executable "blade-ls" == 1 then
         opts.servers = require("astrocore").list_insert_unique(opts.servers, { "blade" })
       end
     end,
