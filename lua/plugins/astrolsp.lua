@@ -82,7 +82,7 @@ return {
           variables = {},
         },
       },
-      -- clangd = { capabilities = { offsetEncoding = "utf-8" } },
+      clangd = { capabilities = { offsetEncoding = "utf-8" } },
     },
     -- customize how language servers are attached
     handlers = {
