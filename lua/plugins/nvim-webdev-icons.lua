@@ -3,11 +3,11 @@ return {
   enabled = vim.g.icons_enabled,
   lazy = true,
   opts = {
-    override_by_extension = {
-      ["blade.php"] = {
-        icon = "",
-        color = "#f05340",
-        name = "Blade",
+    override_by_filename = {
+      ["bun.lockb"] = {
+        icon = "",
+        color = "#eadcd1",
+        name = "BunLockfile",
       },
     },
   },
