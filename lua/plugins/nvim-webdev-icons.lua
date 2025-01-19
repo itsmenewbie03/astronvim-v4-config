@@ -3,6 +3,12 @@ return {
   enabled = vim.g.icons_enabled,
   lazy = true,
   opts = {
-    override_by_filename = {},
+    override_by_extension = {
+      ["asm"] = {
+        icon = "",
+        name = "ASM",
+        color = "#2e52aa",
+      },
+    },
   },
 }
