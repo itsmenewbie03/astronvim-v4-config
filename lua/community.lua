@@ -7,6 +7,7 @@ return {
   { import = "astrocommunity.recipes.telescope-lsp-mappings" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.dart" },
+  { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.php" },
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.svelte" },
