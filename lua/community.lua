@@ -13,5 +13,6 @@ return {
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.templ" },
   -- import/override with your plugins folder
 }
