@@ -25,3 +25,10 @@ vim.o.scrolloff = 10
 vim.api.nvim_set_keymap("n", "gr", " lR", { nowait = true, desc = "Search references" })
 -- INFO: using mouse while coding is gay
 vim.o.mouse = ""
+
+-- INFO: setting up go templates
+vim.filetype.add {
+  pattern = {
+    [".*%.tmpl"] = "gotmpl",
+  },
+}

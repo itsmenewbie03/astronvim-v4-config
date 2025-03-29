@@ -85,6 +85,9 @@ return {
         },
       },
       clangd = { capabilities = { offsetEncoding = "utf-8" } },
+      gopls = {
+        filetypes = { "go", "gomod", "gowork" },
+      },
     },
     -- customize how language servers are attached
     handlers = {
